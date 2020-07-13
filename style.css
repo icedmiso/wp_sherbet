@@ -1,0 +1,85 @@
+/*
+Theme Name: Sherbet
+Theme URI: http://rin.leprd.space/
+Description: Kiwi green and salmon pink inspired theme 
+Version: 1.0
+Author: Rin
+Author URI: http://rin.leprd.space/
+*/
+
+body, p {
+font: normal 85%/220% arial; 
+color: #111;
+}
+
+body {
+padding: 0;
+margin: 0;
+background-color: #ccc;
+} 
+
+#container {
+margin: 0 auto 0 auto;
+width: 900px;
+background-color: #ddd;
+padding: 10px;
+} 
+
+#header {
+background: url('header.png');
+width: 900px;
+height: 150px;
+} 
+
+#sidebar {
+width: 250px;
+height: auto;
+float: left;
+padding: 10px;
+} 
+
+#content {
+width: 610px;
+padding: 10px;
+float: right;
+} 
+
+#footer {
+clear: both;
+padding: 10px;
+}
+
+h1 {
+font: normal 125% georgia;
+color: #444;
+}
+
+h2 {
+font: italic 125% georgia;
+color: #555;
+}
+
+h3 {
+font: italic 115% georgia;
+}
+
+.postmetadata {
+font: normal 85%/190% arial;
+}
+
+a:link, a:visited {
+color: #555;
+}
+
+a:hover {
+color: #999;
+border-bottom: none;
+}
+
+b, strong {
+color: #444;
+}
+
+i, em {
+color: #666;
+}
