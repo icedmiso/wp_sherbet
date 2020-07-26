@@ -83,3 +83,181 @@ color: #444;
 i, em {
 color: #666;
 }
+
+@media only screen and (max-width: 480px) {
+
+	body, p {
+		font: normal 85%/220% 'Roboto Mono', arial; 
+	}
+	
+	ul li {
+		font: normal 90%/220% 'Roboto Mono', arial; 
+	}
+	
+	.posttext {
+		max-width: 100%;
+	}
+	
+	.singlepage {
+		max-width: 90%;
+	}
+	
+	.featured-image img {
+		max-width: 90%;
+	}
+	
+	#header {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		padding-bottom: 100px;
+	}
+	
+	#header img {
+		width: 90%;
+		margin-left: 15px;
+	}
+	
+	.navigation {
+		width: 100%;
+		display: flex;
+  	justify-content: center;	
+	}
+	
+	#container {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	#content {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.singlepost {
+		width: 93%;
+		margin: 0px 10px;
+		padding: 0px;
+	}	
+		
+	.overlay .closebtn {
+		font-size: 40px; 
+		top: 15px; 
+		right: 35px;
+	}
+	
+	.search {
+	font: normal 110%/150% 'Roboto Mono', arial;
+		width: 60%;
+	}
+	
+	textarea {
+		width: 90%;
+	}
+	
+	label {
+		font: normal 130%/150% 'Roboto Mono', arial; 
+	}
+	
+	.alignrightlink {
+		width: 48%;
+	}
+	
+	.alignleftlink {
+		width: 48%;
+	}
+	
+	iframe {
+		max-width: 100%;
+		height: auto;
+	}
+	
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	
+	html {
+		overflow-x: hidden
+	}
+	
+	.singlepost {
+		width: 29%;
+		margin: 0px 10px;
+		padding: 0 0 10px 0;
+	}
+	
+		body, p {
+		font: normal 85%/220% 'Roboto Mono', arial; 
+	}
+	
+		.posttext {
+		max-width: 100%;
+	}
+	
+		iframe {
+		max-width: 100%;
+	}
+	
+		.singlepage {
+		max-width: 85%;
+	}
+	
+	input[type="search"] {
+  -webkit-appearance: none;
+	}
+	
+	#commentinput input {
+		max-width: 100%;
+		width: 100%;
+	}
+	
+	#commentinput {
+		width: 100%;
+		display: flex;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	label {
+		font: normal 130%/150% 'Roboto Mono', arial; 
+	}
+	
+	input, textarea {
+  border-radius: 0;
+	}
+	
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	
+	#commentinput input {
+		max-width: 100%;
+		width: 100%;
+	}
+	
+	#commentinput {
+		width: 30%;
+		display: inline-flex;
+		margin: 0px 8px;
+		padding: 0px;
+	}
+	
+	label {
+		font: normal 130%/150% 'Roboto Mono', arial; 
+	}
+	
+		.singlepage {
+		max-width: 90%;
+	}
+	
+		input, textarea {
+  border-radius: 0;
+}
+	
+		.posttext {
+		max-width: 90%;
+	}
+	
+}
