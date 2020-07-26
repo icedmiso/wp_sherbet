@@ -7,3 +7,4 @@ Functions used:
 - Fullscreen overlay search box
 - Media CSS for mobile
 - Custom menu link
+- Responsive (iPad, iPhone)
