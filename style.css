@@ -7,6 +7,10 @@ Author: Rin
 Author URI: http://rin.leprd.space/
 */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body, p {
 font: normal 85%/220% arial; 
 color: #111;
